@@ -9,7 +9,5 @@ public class ForMltiplicationTableExample {
 				System.out.println(i + "X" + j + "=" + (i*j));
 			}
 		}
-
 	}
-
 }
