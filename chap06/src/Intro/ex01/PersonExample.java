@@ -15,6 +15,7 @@ public class PersonExample {
 		Person person2 = new Person("조철호","010-000-1234", 10, "againnr@naver.com");
 		person2.returnName();
 		person2.returnAge();
+		person2.setPhoneNumber("010-000-1234");
 		System.out.println("person2 전화번호: " + person2.getPhoneNumber());
 		
 	}
