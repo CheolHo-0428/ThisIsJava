@@ -14,6 +14,6 @@ public class AutoBoxingUnBoxingExample {
 		//연산 시 자동 Unboxing
 		int result = obj + 100;
 		System.out.println("result: " + result);
-
+		
 	}
 }
