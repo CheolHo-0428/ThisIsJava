@@ -3,13 +3,18 @@ package sec04ex;
 public class ProductExample {
 
 	public static void main(String[] args) {
-		Product<Car, String> product1 = new Product<Car, String>();
-		product1.setKind(new Car());
-		product1.setModel("제니시스");
+		Product<Tv, String> pd1 = new Product<Tv, String>();
+		pd1.setKind(new Tv());
+		pd1.setModel("스마트TV");
+		Tv tv = pd1.getKind();
+		String tvModel = pd1.getModel();
 		
-		String v1 = product1.getKind().get();
-		System.out.println(v1);
-		System.out.println(product1.getModel());
+		Product<Car, String> pd2 = new Product<Car, String>();
+		pd2.setKind(new Car());
+		Car car = pd2.getKind();
+		
+		pd2.setModel("벤츠");
+		String carModel = pd2.getModel();
 	}
 
 }

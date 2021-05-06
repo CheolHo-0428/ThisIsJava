@@ -1,6 +1,6 @@
 package sec04ex;
 
-public class Box<T> {
+public class Box <T>{
 	private T t;
 
 	public T getT() {

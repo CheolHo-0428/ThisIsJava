@@ -4,8 +4,9 @@ public class Product<T, M> {
 	private T kind;
 	private M model;
 	
+	
 	public T getKind() {
-		return kind;		
+		return kind;
 	}
 	public void setKind(T kind) {
 		this.kind = kind;
@@ -16,4 +17,6 @@ public class Product<T, M> {
 	public void setModel(M model) {
 		this.model = model;
 	}
+	
+	
 }

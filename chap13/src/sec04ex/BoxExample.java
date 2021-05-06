@@ -4,12 +4,14 @@ public class BoxExample {
 
 	public static void main(String[] args) {
 		Box<String> box = new Box<String>();
-		box.setT("홍길동");
-		System.out.println(box.getT());
+		box.setT("hello");
+		String str = box.getT();
+		System.out.println(str);
 		
 		Box<Integer> box1 = new Box<Integer>();
 		box1.setT(123);
-		System.out.println(box1.getT());
+		int value = box1.getT();
+		System.out.println(value);
 
 	}
 
