@@ -8,12 +8,12 @@ public class Course<T> {
 		this.name = name;
 		students = (T[])(new Object[capacity]);
 	}
-	
+
 	public String getName() {
 		return name;
 	}
-	
-	public T[] getStudnets() {
+
+	public T[] getStudents() {
 		return students;
 	}
 	
@@ -25,4 +25,5 @@ public class Course<T> {
 			}
 		}
 	}
+			
 }
